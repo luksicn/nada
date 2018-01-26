@@ -13,27 +13,19 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view ('index');
+        return view('index');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
    
-    
-    public function show($id)
-    {
-        //
-    }
-
     /**
-     * Show the form for editing the specified resource.
+     * Display the specified resource.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    public function show($id)
+    {
+        //
+    }
     
 }
-   
