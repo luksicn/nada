@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', ['as' => 'index', 'uses' => 'IndexController@index']);
+Route::get('/', ['as' => 'index', 'uses' =>'IndexController@index']);
 
 // Authorization
 Route::get('/login', ['as' => 'auth.login.form', 'uses' => 'Auth\SessionController@getLogin']);
