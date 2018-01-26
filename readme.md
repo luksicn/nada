@@ -1,3 +1,1 @@
-
-## Algebra
-
+## Algebra blog
